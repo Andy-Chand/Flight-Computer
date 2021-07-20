@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>FlightComp_CHAND</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GeoEngine V2.72\**" />
+    <EmbeddedResource Remove="GeoEngine V2.72\**" />
+    <None Remove="GeoEngine V2.72\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="GeoEngine V2.72\GeoEngine\GeoEngine_Workspace\GeoEngine_Workspace.csproj" />
+    <ProjectReference Include="GeoEngine V2.72\GeoEngine\SITG_DATA_ACCESS_LIBRARY\SITG_DATA_ACCESS_LIBRARY.csproj" />
+  </ItemGroup>
+
+</Project>
