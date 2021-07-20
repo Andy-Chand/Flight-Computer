@@ -1,7 +1,6 @@
 ﻿/****************************************************************************
-ScriptName: Lab06-FlightComp > DataAccess
+ScriptName: FlightComp > DataAccess
 Coder: Andy Chand 
-Student ID: 0983026
 
 Date: 2020-11-02
 vers     Date                    Coder       Issue
