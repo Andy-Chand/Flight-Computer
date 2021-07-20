@@ -1,7 +1,6 @@
 ﻿/****************************************************************************
-ScriptName: Lab06-FlightComp > Executable
+ScriptName: FlightComp > Executable
 Coder: Andy Chand 
-Student ID: 0983026
 
 Date: 2020-11-02
 vers     Date                    Coder       Issue
@@ -71,7 +70,7 @@ namespace Lab06_FlightComp
         //Method that outputs the intro/updated list for the program
         public static void PrintRoute(List<RouteFlight> Route)
         {
-            Console.WriteLine("Andy's Flight Computer Console Edition\tStudent Number: 0983026\n");
+            Console.WriteLine("Andy's Flight Computer Console Edition");
             Console.WriteLine("'A' to Add Airport to Route\t'R' to Remove last Airport from Route\n'P' to Print Route to File\t'Q' to Quit\n\n");
             Console.WriteLine("Airport Code\tLatitude\tLongitude\tBearing to Next Airport\t\tDistance to Next Airport");
             int x = 0;
