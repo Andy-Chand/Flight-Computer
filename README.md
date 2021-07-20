@@ -1,4 +1,6 @@
-*Legacy Code*: Run FlightComputer.exe to see a running example without the SQL database and stored procedures.
+***Legacy Code***: No longer maintained and server connections removed for security reasons.
+
+Run FlightComputer.exe to see a running example without the SQL database and stored procedures.
 
 This program is about taking data from an existing database (DB_Airports) and using the stored procedures to pull all airports. 
 
