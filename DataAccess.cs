@@ -27,10 +27,7 @@ namespace Lab06_FlightComp
         }
         private String GetConnectionString()
         {
-            //Opens the connection to SQL to allow access to the database
-            //return "Server=DESKTOP-IU04KMD;Database=DB_Airports;Trusted_Connection=Yes;";
-            //Andy's connection String
-            return "Server=THECONTROLSTATI\\CHAND;Database=DB_Radagast;Trusted_Connection=Yes;";
+            return SERVER CONNECTION;
         }
         //Method to get and store all locations
         public List<Location> GetAllLocations()
