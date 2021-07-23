@@ -1,6 +1,6 @@
 ***Legacy Code***: No longer maintained and server connections removed for security reasons.
 
-Run FlightComputer.exe to see a running overhead sample without the SQL database and stored procedures.
+Run FlightComputer.exe to see the professors given running sample without the SQL database and stored procedures.
 
 This program is about taking data from an existing database (DB_Airports) and using the stored procedures to pull all airports. 
 
